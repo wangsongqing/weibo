@@ -33,39 +33,68 @@ footer {
         width: 17px;
         height: 17px;
     }
+}
 
-    /* User gravatar */
+/* Users edit */
 
-    section.user_info {
-        padding-bottom: 10px;
-        margin-top: 20px;
-        text-align: center;
-        .gravatar {
-            float: none;
-            max-width: 70px;
-        }
-        h1 {
-            font-size: 1.4em;
-            letter-spacing: -1px;
-            margin-bottom: 3px;
-            margin-top: 15px;
-        }
-    }
-
+.gravatar_edit {
+    margin: 15px auto;
+    text-align: center;
     .gravatar {
-        float: left;
-        max-width: 50px;
-        border-radius: 50%;
+        float: none;
+        max-width: 100px;
     }
+}
 
-    /* Users edit */
+/* User gravatar */
 
-    .gravatar_edit {
-        margin: 15px auto;
+section.user_info {
+    padding-bottom: 10px;
+    margin-top: 20px;
+    text-align: center;
+    .gravatar {
+        float: none;
+        max-width: 70px;
+    }
+    h1 {
+        font-size: 1.4em;
+        letter-spacing: -1px;
+        margin-bottom: 3px;
+        margin-top: 15px;
+    }
+}
+
+.gravatar {
+    float: left;
+    max-width: 50px;
+    border-radius: 50%;
+}
+
+.stats {
+    overflow: auto;
+    margin-top: 0;
+    padding: 0;
+    a {
+        float: left;
+        padding: 0 10px;
         text-align: center;
-        .gravatar {
-            float: none;
-            max-width: 100px;
+        width: 33%;
+        border-left: 1px solid #eee;
+        color: #33383c;
+        &:first-child {
+            padding-left: 0;
+            border: 0;
+        }
+        &:hover {
+            text-decoration: none;
+            color: #337ab7;
         }
     }
+
+}
+
+strong {
+    display: block;
+    font-size: 1.2em;
+    color: black;
 }
