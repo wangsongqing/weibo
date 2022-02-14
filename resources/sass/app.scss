@@ -12,7 +12,6 @@ nav.navbar.navbar-expand-lg {
 
 
 /* footer */
-
 footer {
     margin-top: 45px;
     padding-top: 5px;
@@ -34,17 +33,29 @@ footer {
         height: 17px;
     }
 }
+//a {
+//    color: #555;
+//}
 
+//a:hover {
+//    color: #222;
+//}
+
+img.brand-icon {
+    width: 17px;
+    height: 17px;
+}
 /* Users edit */
 
 .gravatar_edit {
     margin: 15px auto;
     text-align: center;
-    .gravatar {
-        float: none;
-        max-width: 100px;
-    }
 }
+
+//.gravatar {
+//    float: none;
+//    max-width: 100px;
+//}
 
 /* User gravatar */
 
@@ -90,7 +101,6 @@ section.user_info {
             color: #337ab7;
         }
     }
-
 }
 
 strong {
